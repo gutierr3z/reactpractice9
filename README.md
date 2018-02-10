@@ -13,7 +13,7 @@ git commit -m 'initial commit'
 ```
 // push the current branch and set the remote as upstream
 ```
-git push -u origin master
+git push --set-upstream origin master
 ```
 create .gitignore
 ```
