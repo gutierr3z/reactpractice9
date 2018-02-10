@@ -1,20 +1,22 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 //--------------------------------------------------
-import Comp1 from './components/comp1';
-import Comp2 from './components/comp2';
-//==================================================
-class App extends React.Component {
 
+//==================================================
+class Comp2 extends React.Component {
+
+    constructor( props ) {
+        super( props );
+        this.state = {};
+    }
+    
     render() {
         return (
-            <div className = "app">
-                APP
-                <Comp1 />
-                <Comp2 />
+            <div className = "comp2">
+                Comp2
             </div>
         );
     }
 };
 //==================================================
-ReactDom.render( <App />, document.querySelector( '#main' ) );
+export default Comp2;
